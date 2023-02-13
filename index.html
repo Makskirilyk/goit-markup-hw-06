@@ -23,7 +23,6 @@
 </head>
 
 <body>
-
     <!-- HEADER -->
     <header class="page-header">
         <!-- Navigation -->
@@ -58,28 +57,36 @@
                         <h3 class="modal-title">Leave your contacts and we will call you back</h3>
 
                         <form class="form">
-
-                            <div class="form-field"><label for="name">Name</label>
+                            <div class="field">
+                                <!-- <svg class="icons-form" width="18" height="18"><use href="./images/social-media/icons.svg#icon-name"  ></use></svg> -->
+                                <label for="name">Name</label>
                                 <input type="text" class="name icon-form" name="name" id="name">
                             </div>
-                            <div class="form-field"><label for="phone">Phone</label>
+                            <div class="field">
+                                <!-- <svg class="icons-form" width="18" height="18"><use href="./images/social-media/icons.svg#icon-phone"  ></use></svg> -->
+                                <label for="phone">Phone</label>
                                 <input type="tel" class="phone icon-form" name="phone" id="phone">
                             </div>
-                            <div class="form-field"><label for="email">Email</label>
+                            <div class="field">
+                                <!-- <svg class="icons-form" width="18" height="18"><use href="./images/social-media/icons.svg#icon-mail"  ></use></svg> -->
+                                <label for="email">Email</label>
                                 <input type="email" class="mail icon-form" name="email" id="email">
                             </div>
                             <div class="form-comment"><label for="comment">Comment</label>
                                 <textarea name="comment" id="comment" placeholder="Text input" cols="30"
                                     rows="10"></textarea>
                             </div>
-                            <div class="form-policy"><input type="checkbox" name="privacy-policy" id="privacy-policy">
-                                <label for="privacy-policy">I accept the terms and conditions of the <a
+                            <div class="form-policy">
+                                <label class="label-policy"><input type="checkbox" class="border" name="privacy-policy"
+                                        id="privacy-policy">
+                                        <span class="icon-policy">
+                                        </span>I accept the terms and conditions of the <a
                                         class="link-policy" href="">Privacy
                                         Policy</a></label>
+                                        
                             </div>
                             <div class="form-button"><button class="button-form" type="submit">Send</button>
                             </div>
-                            
                         </form>
                     </div>
                 </div>
@@ -305,6 +312,13 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="subscribe">
+                <h3 class="footer-subscribe">Subscribe</h3>
+                <form>
+                    <input type="mail" placeholder="E-mail" class="mail-field" name="foooter-mail">
+                    <button class="button-subscribe" type="submit">Subscribe</button>
+                </form>
             </div>
         </div>
     </footer>
